@@ -1,0 +1,30 @@
+:root {
+  --vp-c-brand: #42b883;
+  --vp-c-brand-light: #42d392;
+  --vp-c-brand-lighter: #35eb9a;
+  --vp-c-brand-dark: #33a06f;
+  --vp-c-brand-darker: #155f3e;
+}
+
+.VPHero .text {
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+}
+
+.VPHero .tagline {
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+  line-height: 1.5 !important;
+  color: var(--vp-c-text-2) !important;
+}
+
+.custom-block.tip {
+  border-color: var(--vp-c-brand);
+  background-color: var(--vp-c-brand-dimm);
+}
+
+.custom-block.warning {
+  border-color: var(--vp-c-warning);
+  background-color: var(--vp-c-warning-dimm);
+}
